@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloths</title>
+    <link rel="icon" href="logo_small_icon_only.png">
+    <style>
+        body{
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+.linkler a{
+  font-size: 1.1rem;
+  text-decoration:none;
+  padding: 5px;
+  border: 2px solid #d90889;
+  border-radius: 5px;
+  background-color:#7f71ce;
+  color: #E3FDFD;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 10px;
+}
+.linkler a:hover{
+  background-color: #3f14ff;
+  border: 2px solid #1d0d77;
+  font-size:1.2rem;
+  color: black;
+}
+.logo{
+  display: inline-block;
+  color: #502a8f;
+  border: 2px dashed;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Marck Script', cursive;
+}
+.linkler{
+height: 75px;
+float: right;
+margin-top: 10px;
+display: flex;
+width: 50%;
+align-items: center;
+justify-content: center;
+}
+.container-fluid{
+  text-align: left;
+  background-color:#a4ebf3;
+  color: white;
+  font-size: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: sticky;
+  top: 0px;
+}
+.arkaplan-ustkisim{
+  background-color:#cc9191;
+}
+.sol-sag-padding{
+padding-left: 100px;
+padding-right: 100px;
+}
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg,#ff00ea  0%, #FFFFFF 100%);
+        }
+        .flex-item-1{
+            flex:1;
+            background-color: white;
+        }
+        .flex-item-2{
+            flex:1;
+            background-color: red;
+        }
+        .flex-item-3{
+            flex:1;
+            background-color: lightseagreen;
+        }
+        .flex div{
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        @media(max-width:767px){
+        .logo{
+               display: none;
+           }
+           .linkler{
+               display: none;
+           }
+           .flex{
+               display:table-row-group;
+           }
+       }
+       @media(max-width:968px){
+        .logo{
+               display: none;
+           }
+           .linkler{
+               display: none;
+           }
+       }
+    </style>
+</head>
+<body>
+    <div class="container-fluid sol-sag-padding arkaplan-ustkisim">
+        <div class="logo">Cloths</div>
+        <div class="linkler">
+            <a href="finalproject.html">Fashion</a>
+            <a href="final.html">Contact me</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="flex"> <!-- Section 2 Flexbox-->
+         <div class="flex-item-1"> <!-- Section 2 Left Side-->
+             <img src="faschion1.jpg" alt="">
+         </div>
+         <div class="flex-item-1"> <!-- Section 2 Right Side-->
+             <img src="faschion2.jpg" alt=""> 
+         </div>
+         <div class="flex-item-1"> <!-- Section 2 Left Side-->
+            <img src="faschion3.jpg" alt="">
+        </div>
+    </div>
+    <div class="flex"> <!-- Section 2 Flexbox-->
+        <div class="flex-item-1"> <!-- Section 2 Left Side-->
+            <img src="faschion3.jpg" alt="">
+        </div>
+        <div class="flex-item-1"> <!-- Section 2 Right Side-->
+            <img src="faschion2.jpg" alt=""> 
+        </div>
+        <div class="flex-item-1"> <!-- Section 2 Left Side-->
+           <img src="faschion3.jpg" alt="">
+       </div>
+   </div>
+   <div class="flex"> <!-- Section 2 Flexbox-->
+    <div class="flex-item-1"> <!-- Section 2 Left Side-->
+        <img src="faschion3.jpg" alt="">
+    </div>
+    <div class="flex-item-1"> <!-- Section 2 Right Side-->
+        <img src="faschion1.jpg" alt=""> 
+    </div>
+    <div class="flex-item-1"> <!-- Section 2 Left Side-->
+       <img src="faschion1.jpg" alt="">
+   </div>
+</div>
+</body>
+</html>

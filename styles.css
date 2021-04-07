@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .linkler a{
+    font-size: 1.1rem;
+    text-decoration:none;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color:#0e0b0c;
+    color: goldenrod;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 10px;
+  }
+  .linkler a:hover{
+    background-color: #000000;
+    border: 2px solid #040808;
+    font-size:1.2rem;
+    color: black;
+  }
+  .logo{
+    display: inline-block;
+    color: #080c0c;
+    border: 2px dashed;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Marck Script', cursive;
+  }
+  .linkler{
+  height: 75px;
+  float: right;
+  margin-top: 10px;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  }
+  .container-fluid{
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: sticky;
+    top: 0px;
+  }
+  .arkaplan-ustkisim{
+    background-color: #323232;
+  }
+  .sol-sag-padding{
+  padding-left: 100px;
+  padding-right: 100px;
+  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;      
+}
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 80vh;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-info {
+    width: 100%;
+    text-align: center;
+}
+.hero .hero-info .hero-info-heading{
+    font-size: 5rem;
+    font-weight: 500;
+    color: goldenrod;
+}
+.hero .hero-info .hero-info-subheading{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: goldenrod;    
+}
+.hero .hero-info .hero-info-button {
+    margin-top: 30px;
+    padding: 2rem 5rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: goldenrod;
+    text-decoration: none;
+    letter-spacing: .6rem;
+    background-color: rgba(85, 85, 85, 0.534p);
+}
+.hero .hero-img{
+    height: auto;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+.hero .hero-img{
+    height: 100%;
+    width: 100%;
+}
+/* End Hero Section */
+
+
+/* About Section */
+.about{
+    width: 100%;
+    min-width: 50vh;
+    padding: 10rem 5rem;
+    flex-direction: column;
+}
+.about .about-info{
+    text-align: center;
+}
+.about .about-info .about-info-headling{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: black;
+}
+.about .about-info .about-info-desc{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+.about.about-info.about-info-button{
+    padding: 1.6rem 2.6rem;
+    display: inline-block;
+    background-color: rgb(104, 38, 38);
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about .about-img .about-img-wrapper{
+    margin-top: 50px;
+    height: auto;
+    max-width: 400px;
+    position: relative;
+    display: inline-block;
+}
+.about.about-img .about-img-wrapper img{
+    height: 100%;
+    width: 100%;
+}
+.about.about-img .about-img-wrapper::after{
+    position: absolute;
+    right: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+    height: 120%;
+    background-color: rgb(8, 8, 8);
+    z-index: -1;
+}
+/* End About Section */
+
+/* Services Section */
+.services{
+flex-direction: column;
+min-height: 60vh;
+padding: 10rem 5 rem;
+}
+.services .services-header{
+    width: 100%;
+    text-align: center;
+}
+.services .services-header .services-header-heading{
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+}
+.services.services-header .services-header-desc{
+   font-size: 1.3rem;
+   line-height: 2rem;
+   margin-top: 20px;
+}
+.services .services-info{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.services .services-info .service{
+   width: 100%; 
+   min-height: 300px;
+   position: relative;
+   transition: .3s ease transform;
+   margin: 5px;
+}
+.services .services-info .service .service-card{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: 3s ease transform;
+    display: block;
+}
+services .services-info .service .service-card .service-front,
+services .services-info .service .service-card .service-back{
+position: absolute;
+left: 0%;
+top: 0;
+height: 100%;
+width: 100%;
+backface-visibility: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-items: center;
+background-color: black;
+padding: 10px;
+}
+services .services-info .service .service-card .service-back{
+   transform: rotateY(180deg); 
+}
+
+.fa fa-facebook-official {
+    font-size: 80px;
+
+}
+
+/* End Services Section */
